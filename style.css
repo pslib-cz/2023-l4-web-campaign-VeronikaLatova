@@ -1,0 +1,33 @@
+:root {
+    --yellow: #FFBA49;
+    --blue: #20A39E;
+    --coral: #EF5B5B;
+    --purple: #23001E;
+    --gray: #A4A9AD;
+    --black: #0000;
+    --white: #ffff;
+}
+
+html {
+    font-family: 'Nunito', sans-serif; 
+}
+
+header {
+    background-color: var(--blue);
+}
+
+.introduction {
+    background-color: var(--blue);
+}
+
+.about {
+    background-color: var(--yellow);
+}
+
+.why {
+    background-color: var(--white);
+}
+
+.where {
+    background-color: var(--purple);
+}

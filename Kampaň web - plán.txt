@@ -1,0 +1,5 @@
+1) Základní struktura html - mobile first, desktop
+2) Vložení obrázků
+3) Font a barvy
+4) Favicon + Open Graph
+5) CSS
