@@ -14,10 +14,19 @@ html {
 
 header {
     background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    list-style-type: none;
+    font-weight: ;
 }
 
 .introduction {
     background-color: var(--blue);
+    color: var(--white);
 }
 
 .about {
