@@ -32,7 +32,9 @@ header {
 h1 {
     margin: 0;
     border-bottom: var(--white) solid 5px;
-    padding-left: 1em;
+    max-width: min-content;
+    str
+    margin-left: 1em;
     font-size: 2.5rem;
 }
 
@@ -88,6 +90,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 .why {
