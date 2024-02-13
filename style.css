@@ -69,13 +69,18 @@ p {
     align-items: center;
 }
 
-.ponozky_img__img {
+.ponozky_box {
+    max-width: 200px;
+}
+
+.ponozky_box__img {
     width: 100%;
     height: 100%;
     display: block;
     margin: 0;
     padding: 0;
     object-fit: cover;
+    
 }
 
 .about {
