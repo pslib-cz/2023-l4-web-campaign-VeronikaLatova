@@ -25,12 +25,25 @@ header {
     justify-content: space-between;
     text-align: right;
     list-style-type: none;
-    font-weight: ;
+    font-weight: bold;
+    padding: 1em;
 }
 
 h1 {
     margin: 0;
     border-bottom: var(--white) solid 5px;
+    padding-left: 1em;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin: 0;
+    padding: 1em;
+    font-size: 2rem;
+}
+
+p {
+    padding: 1em;
 }
 
 .menu {
@@ -40,6 +53,20 @@ h1 {
 .introduction {
     background-color: var(--blue);
     color: var(--white);
+}
+
+.introduction__h1 {
+    
+}
+
+.fler_logo {
+    margin: 0;
+}
+
+.ponozky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ponozky_img__img {
@@ -53,12 +80,37 @@ h1 {
 
 .about {
     background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .why {
     background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
 }
 
 .where {
     background-color: var(--purple);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.where__h2 {
+    color: var(--white);
+    padding-top: 0em;
+}
+
+.button {
+    background-color: var(--purple);
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
 }
