@@ -51,13 +51,13 @@ p {
     padding-right: 1em;
 }
 
-.introduction {
-    background-color: var(--blue);
+.menu__a {
     color: var(--white);
 }
 
-.introduction__h1 {
-    
+.introduction {
+    background-color: var(--blue);
+    color: var(--white);
 }
 
 .fler_logo {
