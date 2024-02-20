@@ -110,7 +110,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 2em;
+    padding: 3em;
 }
 
 .where {
@@ -152,7 +152,25 @@ p {
     }
 
     .ponozky_box__img {
-        max-width: 100px;
+        max-width: 150px;
     }
 
+    .ponozky_box__img--about {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .ponozky_box {
+        flex-direction: row;
+        max-width: none;
+    }
+
+    .ponozky_box__img {
+        max-width: 150px;
+    }
+
+    .ponozky_box__img--about {
+        max-width: 250px;
+    }
 }
