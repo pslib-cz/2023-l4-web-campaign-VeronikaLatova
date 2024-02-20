@@ -75,13 +75,11 @@ p {
     margin: 0;
 }
 
-.ponozky {
+
+.ponozky_box {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.ponozky_box {
     max-width: 200px;
 }
 
@@ -92,7 +90,6 @@ p {
     margin: 0;
     padding: 0;
     object-fit: cover;
-    
 }
 
 .about {
