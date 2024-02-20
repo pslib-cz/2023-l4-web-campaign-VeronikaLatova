@@ -145,3 +145,9 @@ p {
     font-weight: bold;
 }
 
+@media screen and (min-width: 540px) {
+    .ponozky_box {
+        flex-direction: row;
+        max-width: none;
+    }
+}
