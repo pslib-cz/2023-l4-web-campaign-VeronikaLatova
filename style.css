@@ -75,6 +75,11 @@ p {
     margin: 0;
 }
 
+.ponozky {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .ponozky_box {
     display: flex;
