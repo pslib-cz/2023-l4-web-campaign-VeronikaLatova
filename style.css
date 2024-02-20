@@ -131,4 +131,14 @@ p {
     padding: 10px 30px;
     border-radius: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--yellow);
+    color: var(--purple);
+}
+
+.join__text {
+    font-weight: bold;
 }
