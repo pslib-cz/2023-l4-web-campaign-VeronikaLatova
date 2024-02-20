@@ -49,10 +49,21 @@ p {
 
 .menu {
     padding-right: 1em;
+    padding-left: 0;
 }
 
 .menu__a {
     color: var(--white);
+    text-decoration: none;
+}
+
+.menu__a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu__li {
+    list-style-type: none;
 }
 
 .introduction {
