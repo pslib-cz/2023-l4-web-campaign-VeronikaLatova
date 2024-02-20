@@ -150,4 +150,9 @@ p {
         flex-direction: row;
         max-width: none;
     }
+
+    .ponozky_box__img {
+        max-width: 100px;
+    }
+
 }
