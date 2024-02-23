@@ -33,7 +33,6 @@ h1 {
     margin: 0;
     border-bottom: var(--white) solid 5px;
     max-width: min-content;
-    margin-left: 1em;
     font-size: 2.5rem;
 }
 
@@ -69,6 +68,15 @@ p {
 .introduction {
     background-color: var(--blue);
     color: var(--white);
+}
+
+.introduction__text {
+    margin-left: 2em;
+}
+
+.introduction__short {
+    padding: 0em;
+    margin-right: 2em;
 }
 
 .ponozky_box__fler_logo {
@@ -171,12 +179,12 @@ p {
     }
 
     .ponozky_box__img--about {
-        max-width: 250px;
+        max-width: 350px;
     }
 
     .introduction {
         display: flex;
-        padding: 4em;
+        padding: 5em;
         justify-content: space-between;
     }
 
@@ -184,20 +192,30 @@ p {
         display: flex;
         flex-direction: row-reverse;
         text-align: right;
-        padding: 4em;
+        padding: 5em;
         justify-content: space-around;
+        
     }
 
     .reasons {
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        padding: 3em;
+        padding: 5em;
     }
 
     .where__box {
         display: flex;
         justify-content: center;
+        gap: 5em;
+        padding-top: 5em;
+    }
+
+    .where {
         padding: 5em;
+    }
+
+    .introduction__short {
+        max-width: 400px;
     }
 }
