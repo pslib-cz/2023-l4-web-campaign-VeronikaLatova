@@ -173,4 +173,31 @@ p {
     .ponozky_box__img--about {
         max-width: 250px;
     }
+
+    .introduction {
+        display: flex;
+        padding: 4em;
+        justify-content: space-between;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+        padding: 4em;
+        justify-content: space-around;
+    }
+
+    .reasons {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 3em;
+    }
+
+    .where__box {
+        display: flex;
+        justify-content: center;
+        padding: 5em;
+    }
 }
