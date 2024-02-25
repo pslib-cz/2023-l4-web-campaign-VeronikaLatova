@@ -168,6 +168,13 @@ p {
     }
 }
 
+@media screen and (min-width: 720px) {
+    .menu {
+        display: flex;
+        gap: 2em;
+    }
+}
+
 @media screen and (min-width: 960px) {
     .ponozky_box {
         flex-direction: row;
